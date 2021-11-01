@@ -1,103 +1,142 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial;
-    margin: 0;
-  }
-  
-  main {
-    /* Turns this element into a flexbox */
-    display: flex;
-    /* Forces elements to the next line if they don't fit */
-    flex-wrap: wrap;
-    margin-top: 2%;
-  }
-  
-  .main-header {
-    display: flex;
-    /* Defines how to distribute the empty space between child elements */
-    justify-content: space-between;
-    padding: 60px;
-    background: #13293d;
-    color: #fff;
-  }
-  
-  
-  .box header{
-    padding: 20px;
-    background: #13293d;
-    color: #fff;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    color: gray;
-  }
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0px;
+}
+
+p {
+  font-family: Arial;
+  margin: 60px;
+}
+
+h2 {
+  font-family: Arial;
+  margin: 60px;
+  font-size: 40px;
+}
+
+main {
+  /* Turns this element into a flexbox */
+  display: flex;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.main-header {
+  display: flex;
+  /* Defines how to distribute the empty space between child elements */
+  justify-content: space-between;
+  padding: 10px;
+  background: #13293d;
+  color: #fff;
+}
 
 
-  .flex-container {
-    /* We first create a flex layout context */
-    display: flex;
-    
-    /* Then we define the flow direction 
-       and if we allow the items to wrap 
-     * Remember this is the same as:
-     * flex-direction: row;
-     * flex-wrap: wrap;
-     */
-    flex-flow: row wrap;
-    
-    /* Then we define how is distributed the remaining space */
-    justify-content: space-around;
-    
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
+.box header{
+  padding: 20px;
+  background: #13293d;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: gray;
+}
+
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
   
-  .flex-item {
-    background: tomato;
-    padding: 5px;
-    width: 600px;
-    height: 150px;
-    margin-top: 10px;
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
   
-  .flex-large {
-    background: tomato;
-    padding: 5px;
-    width: 1320px;
-    height: 150px;
-    margin-top: 10px;
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  }
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
   
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 600px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.flex-large {
+  background: tomato;
+  padding: 5px;
+  width: 1320px;
+  height: 400px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.sub-image{
+  height: 600px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("subtitle.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.footer{
+  display: flex;
+  /* Defines how to distribute the empty space between child elements */
+  justify-content: space-between;
+  padding: 10px;
+  background: #13293d;
+  color: #fff;
+}
+
+.list{
+  display: flex;
+  /* Defines how to distribute the empty space between child elements */
+  justify-content: space-between;
+  padding: 40px;
+  padding-right: 25px;
+  background: #13293d;
+  color: #fff;
+  font-size: 20px;
+}
