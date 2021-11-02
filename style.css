@@ -135,11 +135,53 @@ li a:hover {
   display: flex;
   /* Defines how to distribute the empty space between child elements */
   justify-content: space-between;
-  padding: 40px;
+  padding: 60px;
   padding-right: 25px;
   background: #13293d;
   color: #fff;
   font-size: 20px;
 }
 
-html { scroll-behavior: smooth; } 
+html { 
+  scroll-behavior: smooth; 
+} 
+
+@media only screen and (max-width: 768px){
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-large{
+    width: 600px;
+    height: 150px;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-large{
+    width: 600px;
+    height: 150px;
+  }
+
+}
+
+@media (max-width: 500px){
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-large{
+    width: 500px;
+    height: 150px;
+  }
+  .flex-item{
+    width: 500px;
+    height: 150px;
+  }
+
+  .list{
+    flex-direction: column;
+  }
+}
