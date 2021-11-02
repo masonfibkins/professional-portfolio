@@ -73,6 +73,11 @@ a:visited{
   text-align: center;
 }
 
+a{
+  color: white;
+  text-align: center;
+}
+
 li a:hover {
   color: gray;
 }
