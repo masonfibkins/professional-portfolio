@@ -38,15 +38,17 @@ main {
   /* Defines how to distribute the empty space between child elements */
   justify-content: space-between;
   padding: 10px;
-  background: #13293d;
-  color: #fff;
+  color: black;
+  position: fixed;
+  width: 100%;
+  
 }
 
 
 .box header{
   padding: 20px;
-  background: #13293d;
-  color: #fff;
+  
+
 }
 
 ul {
@@ -62,21 +64,24 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 a:visited{
-  color: white;
+  color: black;
   text-align: center;
+  text-decoration: none;
 }
 
 a{
-  color: white;
+  color: black;
   text-align: center;
+  text-decoration: none;
 }
+
 
 li a:hover {
   color: gray;
@@ -104,7 +109,6 @@ li a:hover {
 }
 
 .flex-item {
-  opacity: 0.33;
   padding: 5px;
   width: 600px;
   height: 150px;
@@ -118,7 +122,6 @@ li a:hover {
 }
 
 .flex-large {
-  opacity: 0.33;
   background-image: url("subtitle.jpg");
   background-size: 1320px;
   padding: 5px;
@@ -133,11 +136,11 @@ li a:hover {
 }
 
 .flex-large:hover{
-  opacity: 1;
+  opacity: .33;
 }
 
 .flex-item:hover{
-  opacity: 1;
+  opacity: .33;
 }
 
 #pro-2{
@@ -164,7 +167,7 @@ li a:hover {
   height: 500px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("subtitle.jpg");
+  background-image: url("image2.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -174,8 +177,7 @@ li a:hover {
   /* Defines how to distribute the empty space between child elements */
   justify-content: space-between;
   padding: 10px;
-  background: #13293d;
-  color: #fff;
+  color: black;
 }
 
 .list{
@@ -184,8 +186,7 @@ li a:hover {
   justify-content: space-between;
   padding: 60px;
   padding-right: 25px;
-  background: #13293d;
-  color: #fff;
+  color: black;
   font-size: 20px;
 }
 
