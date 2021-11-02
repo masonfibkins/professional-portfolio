@@ -94,7 +94,7 @@ li a:hover {
 }
 
 .flex-item {
-  background: tomato;
+  opacity: 0.33;
   padding: 5px;
   width: 600px;
   height: 150px;
@@ -103,12 +103,14 @@ li a:hover {
   line-height: 150px;
   color: white;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
 }
 
 .flex-large {
-  background: tomato;
+  opacity: 0.33;
+  background-image: url("subtitle.jpg");
+  background-size: 1320px;
   padding: 5px;
   width: 1320px;
   height: 400px;
@@ -116,8 +118,36 @@ li a:hover {
   line-height: 150px;
   color: white;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
+}
+
+.flex-large:hover{
+  opacity: 1;
+}
+
+.flex-item:hover{
+  opacity: 1;
+}
+
+#pro-2{
+  background-image: url("subtitle.jpg");
+  background-size: 600px;
+}
+
+#pro-3{
+  background-image: url("subtitle.jpg");
+  background-size: 600px;
+}
+
+#pro-4{
+  background-image: url("subtitle.jpg");
+  background-size: 600px;
+}
+
+#pro-5{
+  background-image: url("subtitle.jpg");
+  background-size: 600px;
 }
 
 .sub-image{
