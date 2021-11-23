@@ -39,7 +39,6 @@ main {
   justify-content: space-between;
   padding: 10px;
   color: black;
-  position: fixed;
   width: 100%;
   
 }
@@ -109,6 +108,7 @@ li a:hover {
 }
 
 .flex-item {
+  opacity: .33;
   padding: 5px;
   width: 600px;
   height: 150px;
@@ -122,7 +122,8 @@ li a:hover {
 }
 
 .flex-large {
-  background-image: url("subtitle.jpg");
+  opacity: .33;
+  background-image: url("venue-finder.png");
   background-size: 1320px;
   padding: 5px;
   width: 1320px;
@@ -136,30 +137,30 @@ li a:hover {
 }
 
 .flex-large:hover{
-  opacity: .33;
+  opacity: 1;
 }
 
 .flex-item:hover{
-  opacity: .33;
+  opacity: 1;
 }
 
 #pro-2{
-  background-image: url("subtitle.jpg");
-  background-size: 600px;
+  background-image: url("password-2.png");
+  background-size: 300px;
 }
 
 #pro-3{
-  background-image: url("subtitle.jpg");
-  background-size: 600px;
+  background-image: url("quiz.png");
+  background-size: 100px;
 }
 
 #pro-4{
-  background-image: url("subtitle.jpg");
+  background-image: url("work-day.png");
   background-size: 600px;
 }
 
 #pro-5{
-  background-image: url("subtitle.jpg");
+  background-image: url("weather.png");
   background-size: 600px;
 }
 
